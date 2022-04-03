@@ -11,7 +11,7 @@ const Aunty = () => {
         <div>
             <h4>Aunty</h4>
             <p>House: {house}</p>
-            <button onClick={handelHouseIncrease}>Aunty Magic</button>
+            {house > 4 && <button onClick={handelHouseIncrease}>Aunty Magic</button>}
         </div>
     );
 };
